@@ -67,6 +67,12 @@ for student in students:
         average_performers.append(student_record)
     else:
         low_performers.append(student_record)
+
+# the number of students in eachcategory:
+print(f"High perfomers:",{len(high_performers)})
+print(f"Average performers:", {len(average_performers)})
+print(f"Low performers:",{len(low_performers)})
+
 # to know all the high performers
 print(f"All high performers are :, {high_performers}")
 
